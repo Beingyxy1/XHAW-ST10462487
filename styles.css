@@ -1,0 +1,164 @@
+header {
+    
+    background-size: cover;
+    background-color: rgba(172, 166, 166, 0.274);
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; 
+}
+
+.left-aligned {
+    margin-right: 15px; /* Space between image and text */
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px; /* Space between buttons */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.image {
+    display: flex; 
+    justify-content: center; /* Center images horizontally */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; 
+}
+
+.image-item {
+    text-align: center; 
+    max-width: 200px;
+}
+
+.image-item img {
+    width: 200px; 
+    height: 250px; 
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.274); 
+    color: white; 
+    text-align: left;
+    padding: 20px;
+    position: relative; 
+    bottom: 0;
+    width: auto;
+}
+
+.flashing-text {
+    font-size: 2rem;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        color: red;
+    }
+    50% {
+        color: transparent;
+    }
+}
+
+.image-container {
+    perspective: 1000px; 
+}
+
+.floating-image {
+    transition: transform 0.3s ease;
+}
+
+.floating-image:hover {
+    transform: translateY(-10px);
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3f28a7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container1 {
+    background-color: rgba(167, 165, 165, 0.685);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+
+}
+
+button {
+    background-color: #37a728;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+
+
+
